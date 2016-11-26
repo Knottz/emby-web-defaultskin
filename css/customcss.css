@@ -1,4 +1,4 @@
-/* SNOW FALL EFFECT, TEMPORARY FOR CHRISTMAS, REMOVE AFTER NEW YEAR */
+/* SNOW FALL EFFECT, TEMPORARY FOR CHRISTMAS, REMOVE AFTER NEW YEAR and remove snow html from home.html and item.html */
 #snow {
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
 	height: 100%;
@@ -32,7 +32,7 @@
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 
-/* SNOW FALL EFFECT, TEMPORARY FOR CHRISTMAS, REMOVE AFTER NEW YEAR and remove snow html from home.html and  */
+/* SNOW FALL EFFECT, TEMPORARY FOR CHRISTMAS, REMOVE AFTER NEW YEAR and remove snow html from home.html and item.html */
 
 .backgroundContainer {
     background-image: url(https://www.imageupload.co.uk/images/2016/11/25/grad2.png);
