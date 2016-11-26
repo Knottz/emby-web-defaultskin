@@ -1,0 +1,66 @@
+/* SNOW FALL EFFECT, TEMPORARY FOR CHRISTMAS, REMOVE AFTER NEW YEAR */
+#snow {
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-webkit-animation: snow 25s linear infinite;
+	-moz-animation: snow 25s linear infinite;
+	-ms-animation: snow 25s linear infinite;
+	animation: snow 25s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+/* SNOW FALL EFFECT, TEMPORARY FOR CHRISTMAS, REMOVE AFTER NEW YEAR */
+
+.backgroundContainer {
+    background-image: url(https://www.imageupload.co.uk/images/2016/11/25/grad2.png);
+    background-size: cover;
+    background-color: #111511;
+}
+
+.cardImageContainer {
+border-radius: 20px 0px 20px 0px;
+}
+
+.coveredImage {
+border-radius: 18px 0px 18px 0px;
+}
+
+.userViewButtonText {
+    border-bottom: 0px solid transparent !important;
+}
+
+.itemPageMain {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 8px;
+    padding-top: 8px;
+    margin-left: -8px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.62);
+}
+
+.emby-button:focus:not(.btnUserViewHeader) {
+    background: #279677;
+}
