@@ -32,7 +32,7 @@ define(['playbackManager', 'pluginManager', 'browser', 'connectionManager', 'eve
 
             var list = [
                 // Used for the mpaa rating
-                'css!' + pluginManager.mapPath(self, 'css/rs'),
+                'css!' + pluginManager.mapPath(self, 'css/customcss'),
                 'css!' + pluginManager.mapPath(self, 'css/style'),
                 'css!' + pluginManager.mapPath(self, 'css/colors.dark')
             ];
