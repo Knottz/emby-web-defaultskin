@@ -1,25 +1,17 @@
-/* .backgroundContainer {
+.backgroundContainer {
     background-image: url(https://www.imageupload.co.uk/images/2016/11/25/grad2.png);
     background-size: cover;
     background-color: #111511;
-} */
-
+}
 .cardImageContainer {
 border-radius: 20px 0px 20px 0px;
 }
-
 .coveredImage {
 border-radius: 18px 0px 18px 0px;
 }
-
-.userViewButtonText {
-    border-bottom: 0px solid transparent !important;
-}
-
 .emby-button:focus:not(.btnUserViewHeader) {
     background: #279677;
 }
-
 .innerCardFooter {
     /* background: rgba(0,0,0,0.7); */ /*this bit was outquoted, already inside defaultskin */ /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(rgba(0,0,0,0), black) !important; /* For Safari 5.1 to 6.0 */
