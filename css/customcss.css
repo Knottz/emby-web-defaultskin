@@ -1,9 +1,8 @@
 .backgroundContainer {
     background-image: url(https://www.imageupload.co.uk/images/2016/11/25/grad2.png);
-    background-size: cover;
     background-color: #111511;
 }
-.cardImageContainer {
+/*.cardImageContainer {
 border-radius: 20px 0px 20px 0px;
 }
 .coveredImage {
@@ -12,6 +11,7 @@ border-radius: 18px 0px 18px 0px;
 .emby-button:focus:not(.btnUserViewHeader) {
     background: #279677;
 }
+*/
 .innerCardFooter {
     background: rgba(0,0,0,0.7);
     background: -webkit-linear-gradient(rgba(0,0,0,0), black) !important; /* For Safari 5.1 to 6.0 */
@@ -19,4 +19,4 @@ border-radius: 18px 0px 18px 0px;
     background: -moz-linear-gradient(rgba(0,0,0,0), black) !important; /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(0,0,0,0), black) !important; /* Standard syntax (must be last) */
     border-radius:  12px 0px 12px 0px;
-}
+} 
