@@ -1,7 +1,4 @@
-.backgroundContainer {
-    background-color: #111511;
-}
-/*.cardImageContainer {
+.cardImageContainer {
 border-radius: 20px 0px 20px 0px;
 }
 .coveredImage {
@@ -10,7 +7,6 @@ border-radius: 18px 0px 18px 0px;
 .emby-button:focus:not(.btnUserViewHeader) {
     background: #279677;
 }
-*/
 .innerCardFooter {
     background: rgba(0,0,0,0.7);
     background: -webkit-linear-gradient(rgba(0,0,0,0), black) !important; /* For Safari 5.1 to 6.0 */
