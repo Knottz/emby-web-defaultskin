@@ -1,3 +1,6 @@
+.backdropContainer {
+    background-color: black;
+}
 .cardImageContainer {
 border-radius: 20px 0px 20px 0px;
 }
